@@ -5,7 +5,11 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.zprofile: zprezto/runcoms/zprofile
+    ~/.zlogin: zprezto/runcoms/zlogin
+    ~/.zlogout: zprezto/runcoms/zlogout
+    ~/.zshenv: zprezto/runcoms/zshenv
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
+    ~/.zprezto: zprezto/
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
