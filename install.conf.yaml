@@ -4,11 +4,11 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-    ~/.zprofile: zprezto/runcoms/zprofile
-    ~/.zlogin: zprezto/runcoms/zlogin
-    ~/.zlogout: zprezto/runcoms/zlogout
-    ~/.zshenv: zprezto/runcoms/zshenv
-    ~/.zpreztorc: zprezto/runcoms/zpreztorc
+    ~/.zprofile: zprofile
+    ~/.zlogin: zlogin
+    ~/.zlogout: zlogout
+    ~/.zshenv: zshenv
+    ~/.zpreztorc: zpreztorc
     ~/.zprezto: zprezto/
 
 - shell:
