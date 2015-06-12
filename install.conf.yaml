@@ -1,0 +1,11 @@
+- clean: ['~']
+
+- link:
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+    ~/.zprofile: zprezto/runcoms/zprofile
+    ~/.zpreztorc: zprezto/runcoms/zpreztorc
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
