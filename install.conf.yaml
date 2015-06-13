@@ -12,4 +12,7 @@
     ~/.zprezto: zprezto/
 
 - shell:
+    - ln -f -s ${PWD}/zprezto/runcoms/zlogin ${PWD}/
+    - ln -f -s ${PWD}/zprezto/runcoms/zlogout ${PWD}/
+    - ln -f -s ${PWD}/zprezto/runcoms/zshenv ${PWD}/
     - [git submodule update --init --recursive, Installing submodules]
