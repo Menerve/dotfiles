@@ -16,3 +16,4 @@
     ~/.zshenv: zshenv
     ~/.zpreztorc: zpreztorc
     ~/.zprezto: zprezto/
+    ~/.dir_colors: dir_colors/
