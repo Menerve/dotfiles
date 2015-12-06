@@ -24,3 +24,6 @@ export PYLEARN2_VIEWER_COMMAND="open -Wn"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export PATH=/usr/texbin:$PATH
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
