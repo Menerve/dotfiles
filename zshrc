@@ -24,6 +24,9 @@ export PYLEARN2_VIEWER_COMMAND="open -Wn"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export PATH=/usr/texbin:$PATH
+export GOROOT="$HOME/local/bin/go"
+export GOPATH="$HOME/workspace/go_projects"
+PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
