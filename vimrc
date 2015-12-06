@@ -30,3 +30,4 @@ set shiftwidth=4
 set softtabstop=4
 
 let g:airline#extensions#tabline#enabled = 1
+let g:rustfmt_autosave = 1
