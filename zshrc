@@ -27,3 +27,8 @@ export PATH=/usr/texbin:$PATH
 export GOROOT="$HOME/local/bin/go"
 export GOPATH="$HOME/workspace/go_projects"
 PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
