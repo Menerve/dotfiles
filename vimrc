@@ -37,3 +37,6 @@ set softtabstop=4
 
 let g:airline#extensions#tabline#enabled = 1
 let g:rustfmt_autosave = 1
+
+" allow quit via single keypress (Q)
+map Q :qa<CR>
