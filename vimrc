@@ -18,6 +18,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'fatih/vim-go'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'idris-hackers/idris-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
