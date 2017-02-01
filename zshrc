@@ -15,8 +15,9 @@ export PROJECT_HOME=$HOME/Projects
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Nvidia
-export PATH=/Developer/NVIDIA/CUDA-7.0/bin:$PATH
-export DYLD_LIBRARY_PATH=/Developer/NVIDIA/CUDA-7.0/lib:$DYLD_LIBRARY_PATH
+export CUDA_HOME=/usr/local/cuda
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:$CUDA_HOME/lib"
+export PATH="$CUDA_HOME/bin:$PATH"
 
 export PYLEARN2_DATA_PATH=$HOME/Data
 export PYLEARN2_VIEWER_COMMAND="open -Wn"
