@@ -40,3 +40,7 @@ fi
 if [ -f "$HOME/Projects/google-cloud-sdk/completion.zsh.inc" ]; then
   source "$HOME/Projects/google-cloud-sdk/completion.zsh.inc"
 fi
+
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
+
